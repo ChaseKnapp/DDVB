@@ -9,6 +9,7 @@ C:\Users\Chase\Desktop\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.
 C:\Users\Chase\Desktop\WindowsApplication1\obj\Debug\WindowsApplication1.exe
 C:\Users\Chase\Desktop\WindowsApplication1\obj\Debug\WindowsApplication1.xml
 C:\Users\Chase\Desktop\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+<<<<<<< HEAD
 C:\Users\Chase\Repos\DDVB\WindowsApplication1\bin\Debug\WindowsApplication1.exe.config
 C:\Users\Chase\Repos\DDVB\WindowsApplication1\obj\Debug\WindowsApplication1.exe
 C:\Users\Chase\Repos\DDVB\WindowsApplication1\obj\Debug\WindowsApplication1.xml
@@ -20,3 +21,5 @@ C:\Users\Chase\Repos\DDVB\WindowsApplication1\obj\Debug\WindowsApplication1.vbpr
 C:\Users\Chase\Repos\DDVB\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
 C:\Users\Chase\Repos\DDVB\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
 C:\Users\Chase\Repos\DDVB\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+=======
+>>>>>>> master

@@ -1,4 +1,51 @@
+<<<<<<< HEAD
 ﻿
+=======
+﻿'Dim testDie As New Random
+'Dim random As Integer = testDie.Next(1, 13)
+'If random = 1 Then
+'TextBox1.Text = ""
+'ElseIf random = 2 Then
+'TextBox1.Text = ""
+'ElseIf random = 3 Then
+'TextBox1.Text = ""
+'ElseIf random = 4 Then
+'TextBox1.Text = ""
+'ElseIf random = 5 Then
+'TextBox1.Text = ""
+'ElseIf random = 6 Then
+'TextBox1.Text = ""
+'ElseIf random = 7 Then
+'TextBox1.Text = ""
+'ElseIf random = 8 Then
+'TextBox1.Text = ""
+'ElseIf random = 9 Then
+'TextBox1.Text = ""
+'ElseIf random = 10 Then
+'TextBox1.Text = ""
+'ElseIf random = 11 Then
+'TextBox1.Text = ""
+'ElseIf random = 12 Then
+'TextBox1.Text = ""
+'ElseIf random = 13 Then
+'TextBox1.Text = ""
+'ElseIf random = 14 Then
+'TextBox1.Text = ""
+'ElseIf random = 15 Then
+'TextBox1.Text = ""
+'ElseIf random = 16 Then
+'TextBox1.Text = ""
+'ElseIf random = 17 Then
+'TextBox1.Text = ""
+'ElseIf random = 18 Then
+'TextBox1.Text = ""
+'ElseIf random = 19 Then
+'TextBox1.Text = ""
+'ElseIf random = 20 Then
+'TextBox1.Text = ""
+'End If
+'TextBox2.Text = random
+>>>>>>> master
 Public Class Form1
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Dim testDie As New Random
@@ -690,6 +737,7 @@ results of99 or 100) "
         End If
         TextBox2.Text = random
     End Sub
+<<<<<<< HEAD
 
     Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
         Dim testDie As New Random
@@ -1048,6 +1096,8 @@ bracelets "
         End If
         TextBox2.Text = random
     End Sub
+=======
+>>>>>>> master
 End Class
 'Dim testDie As New Random
 'Dim random As Integer = testDie.Next(1, 21)

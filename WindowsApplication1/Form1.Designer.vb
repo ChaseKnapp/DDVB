@@ -22,7 +22,10 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+<<<<<<< HEAD
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+=======
+>>>>>>> master
         Me.Button1 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
@@ -37,6 +40,7 @@ Partial Class Form1
         Me.Button10 = New System.Windows.Forms.Button()
         Me.Button11 = New System.Windows.Forms.Button()
         Me.Button12 = New System.Windows.Forms.Button()
+<<<<<<< HEAD
         Me.Button13 = New System.Windows.Forms.Button()
         Me.Button14 = New System.Windows.Forms.Button()
         Me.Button15 = New System.Windows.Forms.Button()
@@ -46,16 +50,22 @@ Partial Class Form1
         Me.Button19 = New System.Windows.Forms.Button()
         Me.Button20 = New System.Windows.Forms.Button()
         Me.Button21 = New System.Windows.Forms.Button()
+=======
+>>>>>>> master
         Me.SuspendLayout()
         '
         'Button1
         '
+<<<<<<< HEAD
         Me.Button1.BackColor = System.Drawing.Color.Thistle
+=======
+>>>>>>> master
         Me.Button1.Location = New System.Drawing.Point(12, 12)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(128, 23)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Dungeon Goals"
+<<<<<<< HEAD
         Me.Button1.UseVisualStyleBackColor = False
         '
         'TextBox1
@@ -86,6 +96,33 @@ Partial Class Form1
         Me.Button2.TabIndex = 1
         Me.Button2.Text = "Wilderness Goals"
         Me.Button2.UseVisualStyleBackColor = False
+=======
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(360, 208)
+        Me.TextBox1.Multiline = True
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(280, 66)
+        Me.TextBox1.TabIndex = 1
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(406, 326)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox2.TabIndex = 2
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(146, 12)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(128, 23)
+        Me.Button2.TabIndex = 3
+        Me.Button2.Text = "Wilderness Goals"
+        Me.Button2.UseVisualStyleBackColor = True
+>>>>>>> master
         '
         'Button3
         '
@@ -101,7 +138,11 @@ Partial Class Form1
         Me.Button4.Location = New System.Drawing.Point(414, 12)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(128, 23)
+<<<<<<< HEAD
         Me.Button4.TabIndex = 3
+=======
+        Me.Button4.TabIndex = 5
+>>>>>>> master
         Me.Button4.Text = "Adventure Patrons"
         Me.Button4.UseVisualStyleBackColor = True
         '
@@ -111,7 +152,11 @@ Partial Class Form1
         Me.Button5.Name = "Button5"
         Me.Button5.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.Button5.Size = New System.Drawing.Size(128, 23)
+<<<<<<< HEAD
         Me.Button5.TabIndex = 2
+=======
+        Me.Button5.TabIndex = 6
+>>>>>>> master
         Me.Button5.Text = "Other Goals"
         Me.Button5.UseVisualStyleBackColor = True
         '
@@ -120,7 +165,11 @@ Partial Class Form1
         Me.Button6.Location = New System.Drawing.Point(682, 12)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(128, 23)
+<<<<<<< HEAD
         Me.Button6.TabIndex = 5
+=======
+        Me.Button6.TabIndex = 7
+>>>>>>> master
         Me.Button6.Text = "Adventure Allies"
         Me.Button6.UseVisualStyleBackColor = True
         '
@@ -129,7 +178,11 @@ Partial Class Form1
         Me.Button7.Location = New System.Drawing.Point(816, 12)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(128, 23)
+<<<<<<< HEAD
         Me.Button7.TabIndex = 6
+=======
+        Me.Button7.TabIndex = 8
+>>>>>>> master
         Me.Button7.Text = "Adventure Introduction"
         Me.Button7.UseVisualStyleBackColor = True
         '
@@ -138,7 +191,11 @@ Partial Class Form1
         Me.Button8.Location = New System.Drawing.Point(12, 41)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(128, 23)
+<<<<<<< HEAD
         Me.Button8.TabIndex = 7
+=======
+        Me.Button8.TabIndex = 9
+>>>>>>> master
         Me.Button8.Text = "Adventure Climax"
         Me.Button8.UseVisualStyleBackColor = True
         '
@@ -147,7 +204,11 @@ Partial Class Form1
         Me.Button9.Location = New System.Drawing.Point(146, 41)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(128, 23)
+<<<<<<< HEAD
         Me.Button9.TabIndex = 8
+=======
+        Me.Button9.TabIndex = 10
+>>>>>>> master
         Me.Button9.Text = "Event Based Villian Actions"
         Me.Button9.UseVisualStyleBackColor = True
         '
@@ -156,7 +217,11 @@ Partial Class Form1
         Me.Button10.Location = New System.Drawing.Point(280, 41)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(128, 23)
+<<<<<<< HEAD
         Me.Button10.TabIndex = 9
+=======
+        Me.Button10.TabIndex = 11
+>>>>>>> master
         Me.Button10.Text = "Event Based Goals"
         Me.Button10.UseVisualStyleBackColor = True
         '
@@ -165,7 +230,11 @@ Partial Class Form1
         Me.Button11.Location = New System.Drawing.Point(414, 41)
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(128, 23)
+<<<<<<< HEAD
         Me.Button11.TabIndex = 10
+=======
+        Me.Button11.TabIndex = 12
+>>>>>>> master
         Me.Button11.Text = "Farming Events" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.Button11.UseVisualStyleBackColor = True
         '
@@ -174,6 +243,7 @@ Partial Class Form1
         Me.Button12.Location = New System.Drawing.Point(548, 41)
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(128, 23)
+<<<<<<< HEAD
         Me.Button12.TabIndex = 11
         Me.Button12.Text = "Moral Quandries" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.Button12.UseVisualStyleBackColor = True
@@ -259,10 +329,17 @@ Partial Class Form1
         Me.Button21.Text = "NPC Ideals" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.Button21.UseVisualStyleBackColor = True
         '
+=======
+        Me.Button12.TabIndex = 13
+        Me.Button12.Text = "Moral Quandries" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Button12.UseVisualStyleBackColor = True
+        '
+>>>>>>> master
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+<<<<<<< HEAD
         Me.BackColor = System.Drawing.Color.LightBlue
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(962, 434)
@@ -275,6 +352,9 @@ Partial Class Form1
         Me.Controls.Add(Me.Button15)
         Me.Controls.Add(Me.Button14)
         Me.Controls.Add(Me.Button13)
+=======
+        Me.ClientSize = New System.Drawing.Size(962, 434)
+>>>>>>> master
         Me.Controls.Add(Me.Button12)
         Me.Controls.Add(Me.Button11)
         Me.Controls.Add(Me.Button10)
@@ -290,7 +370,11 @@ Partial Class Form1
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Form1"
+<<<<<<< HEAD
         Me.Text = "Dungeon Master Tools"
+=======
+        Me.Text = "Form1"
+>>>>>>> master
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -310,6 +394,7 @@ Partial Class Form1
     Friend WithEvents Button10 As Button
     Friend WithEvents Button11 As Button
     Friend WithEvents Button12 As Button
+<<<<<<< HEAD
     Friend WithEvents Button13 As Button
     Friend WithEvents Button14 As Button
     Friend WithEvents Button15 As Button
@@ -319,4 +404,6 @@ Partial Class Form1
     Friend WithEvents Button19 As Button
     Friend WithEvents Button20 As Button
     Friend WithEvents Button21 As Button
+=======
+>>>>>>> master
 End Class
