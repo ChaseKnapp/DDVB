@@ -1047,6 +1047,451 @@ bracelets "
         End If
         TextBox2.Text = random
     End Sub
+
+    Private Sub Button22_Click(sender As Object, e As EventArgs) Handles Button22.Click
+        Dim testDie As New Random
+        Dim random As Integer = testDie.Next(1, 11)
+        If random = 1 Then
+            TextBox1.Text = "Dedicated to fulfilling a personal life goal"
+        ElseIf random = 2 Then
+            TextBox1.Text = "Protective of close family members "
+        ElseIf random = 3 Then
+            TextBox1.Text = "Protective of colleagues or compatriots "
+        ElseIf random = 4 Then
+            TextBox1.Text = "Loyal to a benefactor, patron, or employer "
+        ElseIf random = 5 Then
+            TextBox1.Text = "Captivated by a romantic interest"
+        ElseIf random = 6 Then
+            TextBox1.Text = "Drawn to a special place"
+        ElseIf random = 7 Then
+            TextBox1.Text = "Protective of a sentimental keepsake "
+        ElseIf random = 8 Then
+            TextBox1.Text = "Protective of a valuable possession "
+        ElseIf random = 9 Then
+            TextBox1.Text = "Out for revenge "
+        ElseIf random = 10 Then
+            TextBox1.Text = "Roll twice, ignoring results of10 "
+        End If
+        TextBox2.Text = random
+    End Sub
+
+    Private Sub Button23_Click(sender As Object, e As EventArgs) Handles Button23.Click
+        Dim testDie As New Random
+        Dim random As Integer = testDie.Next(1, 13)
+        If random = 1 Then
+            TextBox1.Text = "Forbidden love or susceptibility to romance"
+        ElseIf random = 2 Then
+            TextBox1.Text = "Enjoys decadent pleasures"
+        ElseIf random = 3 Then
+            TextBox1.Text = "Arrogance"
+        ElseIf random = 4 Then
+            TextBox1.Text = "Envies another creature's possessions or station "
+        ElseIf random = 5 Then
+            TextBox1.Text = "Overpowering greed "
+        ElseIf random = 6 Then
+            TextBox1.Text = "Prone to rage "
+        ElseIf random = 7 Then
+            TextBox1.Text = "Has a powerful enemy "
+        ElseIf random = 8 Then
+            TextBox1.Text = "Specific phobia"
+        ElseIf random = 9 Then
+            TextBox1.Text = "Shameful or scandalous history"
+        ElseIf random = 10 Then
+            TextBox1.Text = "Secret crime or misdeed "
+        ElseIf random = 11 Then
+            TextBox1.Text = "Possession offorbidden lore"
+        ElseIf random = 12 Then
+            TextBox1.Text = "Foolhardy bravery "
+        End If
+        TextBox2.Text = random
+    End Sub
+
+    Private Sub Button24_Click(sender As Object, e As EventArgs) Handles Button24.Click
+        Dim testDie As New Random
+        Dim valHold As Integer
+        Dim random As Integer = testDie.Next(1, 9)
+        If random = 1 Then
+            Dim random2 As Integer = testDie.Next(1, 5)
+            valHold = random2
+            If random2 = 1 Then
+                TextBox1.Text = "Immortality: " + "Acquire a legendary item to prolong life "
+            ElseIf random2 = 2 Then
+                TextBox1.Text = "Immortality: " + "Ascend to godhood "
+            ElseIf random2 = 3 Then
+                TextBox1.Text = "Immortality: " + "Become undead or obtain a younger body "
+            ElseIf random2 = 4 Then
+                TextBox1.Text = "Immortality: " + "Steal a planar creature's essence "
+            End If
+        ElseIf random = 2 Then
+            Dim random2 As Integer = testDie.Next(1, 5)
+            valHold = random2
+            If random2 = 1 Then
+                TextBox1.Text = "Influence: " + "Seize a position of power or title "
+            ElseIf random2 = 2 Then
+                TextBox1.Text = "Influence: " + "Win a contest or tournament "
+            ElseIf random2 = 3 Then
+                TextBox1.Text = "Influence: " + "Win favor with a powerful individual "
+            ElseIf random2 = 4 Then
+                TextBox1.Text = "Influence: " + "Place a pawn in a position of power"
+            End If
+        ElseIf random = 3 Then
+            Dim random2 As Integer = testDie.Next(1, 7)
+            valHold = random2
+            If random2 = 1 Then
+                TextBox1.Text = "Magic: " + "Obtain an ancient artifact "
+            ElseIf random2 = 2 Then
+                TextBox1.Text = "Magic: " + "Build a construct or magical device "
+            ElseIf random2 = 3 Then
+                TextBox1.Text = "Magic: " + "Carry out a deity's wishes "
+            ElseIf random2 = 4 Then
+                TextBox1.Text = "Magic: " + "Offer sacrifices to a deity "
+            ElseIf random2 = 5 Then
+                TextBox1.Text = "Magic: " + "Contact a lost deity or power "
+            ElseIf random2 = 6 Then
+                TextBox1.Text = "Magic: " + "Open a gate to another world "
+            End If
+        ElseIf random = 4 Then
+            Dim random2 As Integer = testDie.Next(1, 7)
+            valHold = random2
+            If random2 = 1 Then
+                TextBox1.Text = "Mayhem: " + "Fulfill an apocalyptic prophecy "
+            ElseIf random2 = 2 Then
+                TextBox1.Text = "Mayhem: " + "Enact the vengeful will of a god or patron "
+            ElseIf random2 = 3 Then
+                TextBox1.Text = "Mayhem: " + "Spread a vile contagion "
+            ElseIf random2 = 4 Then
+                TextBox1.Text = "Mayhem: " + "Overthrow a government"
+            ElseIf random2 = 5 Then
+                TextBox1.Text = "Mayhem: " + "Trigger a natural disaster"
+            ElseIf random2 = 6 Then
+                TextBox1.Text = "Mayhem: " + "Utterly destroy a bloodline or clan"
+            End If
+        ElseIf random = 5 Then
+            Dim random2 As Integer = testDie.Next(1, 5)
+            valHold = random2
+            If random2 = 1 Then
+                TextBox1.Text = "Passion: " + "Prolong the life of a loved one"
+            ElseIf random2 = 2 Then
+                TextBox1.Text = "Passion: " + "Prove worthy of another person's love "
+            ElseIf random2 = 3 Then
+                TextBox1.Text = "Passion: " + "Raise or restore a dead loved one "
+            ElseIf random2 = 4 Then
+                TextBox1.Text = "Passion: " + "Destroy rivals for another person's affection"
+            End If
+        ElseIf random = 6 Then
+            Dim random2 As Integer = testDie.Next(1, 5)
+            valHold = random2
+            If random2 = 1 Then
+                TextBox1.Text = "Power: " + "Conquer a region or incite a rebellion"
+            ElseIf random2 = 2 Then
+                TextBox1.Text = "Power: " + "Seize control of an army"
+            ElseIf random2 = 3 Then
+                TextBox1.Text = "Power: " + "Become the power behind the throne "
+            ElseIf random2 = 4 Then
+                TextBox1.Text = "Power: " + "Gain the favor of a ruler "
+            End If
+        ElseIf random = 7 Then
+            Dim random2 As Integer = testDie.Next(1, 5)
+            valHold = random2
+            If random2 = 1 Then
+                TextBox1.Text = "Revenge: " + "Avenge a past humiliation or insult"
+            ElseIf random2 = 2 Then
+                TextBox1.Text = "Revenge: " + "Avenge a past imprisonment or injury"
+            ElseIf random2 = 3 Then
+                TextBox1.Text = "Revenge: " + "Avenge the death of a loved one "
+            ElseIf random2 = 4 Then
+                TextBox1.Text = "Revenge: " + "Retrieve stolen property and punish the thief"
+            End If
+        ElseIf random = 8 Then
+            Dim random2 As Integer = testDie.Next(1, 5)
+            valHold = random2
+            If random2 = 1 Then
+                TextBox1.Text = "Wealth: " + "Control natural resources or trade "
+            ElseIf random2 = 2 Then
+                TextBox1.Text = "Wealth: " + "Marry into wealth "
+            ElseIf random2 = 3 Then
+                TextBox1.Text = "Wealth: " + "Plunder ancient ruins "
+            ElseIf random2 = 4 Then
+                TextBox1.Text = "Wealth: " + "Steal land, goods, or money "
+            End If
+        End If
+        TextBox2.Text = random & "," & valHold
+    End Sub
+
+    Private Sub Button25_Click(sender As Object, e As EventArgs) Handles Button25.Click
+        Dim testDie As New Random
+        Dim valHold As Integer
+        Dim random As Integer = testDie.Next(1, 9)
+        valHold = 0
+        If random = 1 Then
+            Dim random2 As Integer = testDie.Next(1, 5)
+            valHold = random2
+            If random2 = 1 Then
+                TextBox1.Text = "Agricultural Devastation: " + "Blight"
+            ElseIf random2 = 2 Then
+                TextBox1.Text = "Agricultural Devastation: " + "Crop Failure"
+            ElseIf random2 = 3 Then
+                TextBox1.Text = "Agricultural Devastation: " + "Drought"
+            ElseIf random2 = 4 Then
+                TextBox1.Text = "Agricultural Devastation: " + "Famine"
+            End If
+        ElseIf random = 2 Then
+            TextBox1.Text = "Assault or Beatings"
+        ElseIf random = 3 Then
+            TextBox1.Text = "Bounty hunting or assasination"
+        ElseIf random = 4 Then
+            Dim random2 As Integer = testDie.Next(1, 11)
+            valHold = random2
+            If random2 = 1 Then
+                TextBox1.Text = "Captivity or coercion: " + "Bribery"
+            ElseIf random2 = 2 Then
+                TextBox1.Text = "Captivity or coercion: " + "Enticement"
+            ElseIf random2 = 3 Then
+                TextBox1.Text = "Captivity or coercion: " + "Eviction"
+            ElseIf random2 = 4 Then
+                TextBox1.Text = "Captivity or coercion: " + "Imprisonment"
+            ElseIf random2 = 5 Then
+                TextBox1.Text = "Captivity or coercion: " + "Kidnapping"
+            ElseIf random2 = 6 Then
+                TextBox1.Text = "Captivity or coercion: " + "Legal intimidation"
+            ElseIf random2 = 7 Then
+                TextBox1.Text = "Captivity or coercion: " + "Press gangs"
+            ElseIf random2 = 8 Then
+                TextBox1.Text = "Captivity or coercion: " + "Shackling"
+            ElseIf random2 = 9 Then
+                TextBox1.Text = "Captivity or coercion: " + "Slavery"
+            ElseIf random2 = 10 Then
+                TextBox1.Text = "Captivity or coercion: " + "Threats or harassment"
+            End If
+        ElseIf random = 5 Then
+            Dim random2 As Integer = testDie.Next(1, 7)
+            valHold = random2
+            If random2 = 1 Then
+                TextBox1.Text = "Confidence scams: " + "Breach of contract"
+            ElseIf random2 = 2 Then
+                TextBox1.Text = "Confidence scams: " + "Cheating"
+            ElseIf random2 = 3 Then
+                TextBox1.Text = "Confidence scams: " + "Fast talking"
+            ElseIf random2 = 4 Then
+                TextBox1.Text = "Confidence scams: " + "Fine print"
+            ElseIf random2 = 5 Then
+                TextBox1.Text = "Confidence scams: " + "Fraud or swindling"
+            ElseIf random2 = 6 Then
+                TextBox1.Text = "Confidence scams: " + "Quackery or tricks"
+            End If
+        ElseIf random = 6 Then
+            Dim random2 As Integer = testDie.Next(1, 5)
+            valHold = random2
+            If random2 = 1 Then
+                TextBox1.Text = "Defamation: " + "Framing"
+            ElseIf random2 = 2 Then
+                TextBox1.Text = "Defamation: " + "Gossiping or slander"
+            ElseIf random2 = 3 Then
+                TextBox1.Text = "Defamation: " + "Humiliation"
+            ElseIf random2 = 4 Then
+                TextBox1.Text = "Defamation: " + "Libel or insults"
+            End If
+        ElseIf random = 7 Then
+            TextBox1.Text = "Dueling"
+        ElseIf random = 8 Then
+            Dim random2 As Integer = testDie.Next(1, 9)
+            valHold = random2
+            If random2 = 1 Then
+                TextBox1.Text = "Execution: " + "Beheading"
+            ElseIf random2 = 2 Then
+                TextBox1.Text = "Execution: " + "Burning at the stake"
+            ElseIf random2 = 3 Then
+                TextBox1.Text = "Execution: " + "Burying alive"
+            ElseIf random2 = 4 Then
+                TextBox1.Text = "Execution: " + "Crucifixion"
+            ElseIf random2 = 5 Then
+                TextBox1.Text = "Execution: " + "Drawing and quartering"
+            ElseIf random2 = 6 Then
+                TextBox1.Text = "Execution: " + "Hanging"
+            ElseIf random2 = 7 Then
+                TextBox1.Text = "Execution: " + "Impalement"
+            ElseIf random2 = 8 Then
+                TextBox1.Text = "Execution: " + "Sacrifice (living)"
+            End If
+        ElseIf random = 9 Then
+            TextBox1.Text = "Impersonation or disguise"
+        ElseIf random = 10 Then
+            TextBox1.Text = "Lying or perjury"
+        ElseIf random = 11 Then
+            Dim random2 As Integer = testDie.Next(1, 9)
+            valHold = random2
+            If random2 = 1 Then
+                TextBox1.Text = "Magical Mayhem: " + "Hauntings"
+            ElseIf random2 = 2 Then
+                TextBox1.Text = "Magical Mayhem: " + "Illusions"
+            ElseIf random2 = 3 Then
+                TextBox1.Text = "Magical Mayhem: " + "Infernal bargains"
+            ElseIf random2 = 4 Then
+                TextBox1.Text = "Magical Mayhem: " + "Mind control"
+            ElseIf random2 = 5 Then
+                TextBox1.Text = "Magical Mayhem: " + "Petrification"
+            ElseIf random2 = 6 Then
+                TextBox1.Text = "Magical Mayhem: " + "Raising or animating the dead"
+            ElseIf random2 = 7 Then
+                TextBox1.Text = "Magical Mayhem: " + "Summoning monsters"
+            ElseIf random2 = 8 Then
+                TextBox1.Text = "Magical Mayhem: " + "Weather control"
+            End If
+        ElseIf random = 12 Then
+            Dim random2 As Integer = testDie.Next(1, 11)
+            valHold = random2
+            If random2 = 1 Then
+                TextBox1.Text = "Murder: " + "Assassination "
+            ElseIf random2 = 2 Then
+                TextBox1.Text = "Murder: " + "Cannibalism"
+            ElseIf random2 = 3 Then
+                TextBox1.Text = "Murder: " + "Dismemberment "
+            ElseIf random2 = 4 Then
+                TextBox1.Text = "Murder: " + "Drowning"
+            ElseIf random2 = 5 Then
+                TextBox1.Text = "Murder: " + "Electrocution "
+            ElseIf random2 = 6 Then
+                TextBox1.Text = "Murder: " + "Euthanasia (involuntary)"
+            ElseIf random2 = 7 Then
+                TextBox1.Text = "Murder: " + "Disease"
+            ElseIf random2 = 8 Then
+                TextBox1.Text = "Murder: " + "Poisoning "
+            ElseIf random2 = 9 Then
+                TextBox1.Text = "Murder: " + "Stabbing "
+            ElseIf random2 = 10 Then
+                TextBox1.Text = "Murder: " + "Strangulation or suffocation "
+            End If
+        ElseIf random = 13 Then
+            TextBox1.Text = "Neglect"
+        ElseIf random = 14 Then
+            Dim random2 As Integer = testDie.Next(1, 7)
+            valHold = random2
+            If random2 = 1 Then
+                TextBox1.Text = "Politics: " + "Betrayal or treason"
+            ElseIf random2 = 2 Then
+                TextBox1.Text = "Politics: " + "Conspiracy "
+            ElseIf random2 = 3 Then
+                TextBox1.Text = "Politics: " + "Espionage or spying "
+            ElseIf random2 = 4 Then
+                TextBox1.Text = "Politics: " + "Genocide "
+            ElseIf random2 = 5 Then
+                TextBox1.Text = "Politics: " + "Oppression"
+            ElseIf random2 = 6 Then
+                TextBox1.Text = "Politics: " + "Raising taxes "
+            End If
+        ElseIf random = 15 Then
+            Dim random2 As Integer = testDie.Next(1, 5)
+            valHold = random2
+            If random2 = 1 Then
+                TextBox1.Text = "Religion: " + "Curses"
+            ElseIf random2 = 2 Then
+                TextBox1.Text = "Religion: " + "Desecration"
+            ElseIf random2 = 3 Then
+                TextBox1.Text = "Religion: " + "False gods"
+            ElseIf random2 = 4 Then
+                TextBox1.Text = "Religion: " + "Heresy or cults"
+            End If
+        ElseIf random = 16 Then
+            TextBox1.Text = "Stalking"
+        ElseIf random = 17 Then
+            Dim random2 As Integer = testDie.Next(1, 11)
+            valHold = random2
+            If random2 = 1 Then
+                TextBox1.Text = "Theft or Property Crime: " + "Arson"
+            ElseIf random2 = 2 Then
+                TextBox1.Text = "Theft or Property Crime: " + "Blackmail or extortion "
+            ElseIf random2 = 3 Then
+                TextBox1.Text = "Theft or Property Crime: " + "Burglary"
+            ElseIf random2 = 4 Then
+                TextBox1.Text = "Theft or Property Crime: " + "Counterfeiting "
+            ElseIf random2 = 5 Then
+                TextBox1.Text = "Theft or Property Crime: " + "Highway robbery"
+            ElseIf random2 = 6 Then
+                TextBox1.Text = "Theft or Property Crime: " + "Looting "
+            ElseIf random2 = 7 Then
+                TextBox1.Text = "Theft or Property Crime: " + "Mugging "
+            ElseIf random2 = 8 Then
+                TextBox1.Text = "Theft or Property Crime: " + "Poaching"
+            ElseIf random2 = 9 Then
+                TextBox1.Text = "Theft or Property Crime: " + "Seizing property"
+            ElseIf random2 = 10 Then
+                TextBox1.Text = "Theft or Property Crime: " + "Smuggling "
+            End If
+        ElseIf random = 18 Then
+            Dim random2 As Integer = testDie.Next(1, 7)
+            valHold = random2
+            If random2 = 1 Then
+                TextBox1.Text = "Torture: " + "Acid"
+            ElseIf random2 = 2 Then
+                TextBox1.Text = "Torture: " + "Blinding"
+            ElseIf random2 = 3 Then
+                TextBox1.Text = "Torture: " + "Branding"
+            ElseIf random2 = 4 Then
+                TextBox1.Text = "Torture: " + "Racking"
+            ElseIf random2 = 5 Then
+                TextBox1.Text = "Torture: " + "Thumbscrews "
+            ElseIf random2 = 6 Then
+                TextBox1.Text = "Torture: " + "Whipping "
+            End If
+        ElseIf random = 19 Then
+            Dim random2 As Integer = testDie.Next(1, 5)
+            valHold = random2
+            If random2 = 1 Then
+                TextBox1.Text = "Vice: " + "Adultery"
+            ElseIf random2 = 2 Then
+                TextBox1.Text = "Vice: " + "Drugs or alcohol "
+            ElseIf random2 = 3 Then
+                TextBox1.Text = "Vice: " + "Gambling"
+            ElseIf random2 = 4 Then
+                TextBox1.Text = "Vice: " + "Seduction"
+            End If
+        ElseIf random = 20 Then
+            Dim random2 As Integer = testDie.Next(1, 7)
+            valHold = random2
+            If random2 = 1 Then
+                TextBox1.Text = "Warfare: " + "Ambush "
+            ElseIf random2 = 2 Then
+                TextBox1.Text = "Warfare: " + "Invasion"
+            ElseIf random2 = 3 Then
+                TextBox1.Text = "Warfare: " + "Massacre "
+            ElseIf random2 = 4 Then
+                TextBox1.Text = "Warfare: " + "Mercenaries  "
+            ElseIf random2 = 5 Then
+                TextBox1.Text = "Warfare: " + "Rebellion "
+            ElseIf random2 = 6 Then
+                TextBox1.Text = "Warfare: " + "Terrorism "
+            End If
+        End If
+        TextBox2.Text = random & "," & valHold
+    End Sub
+
+    Private Sub Button26_Click(sender As Object, e As EventArgs) Handles Button26.Click
+        Dim testDie As New Random
+        Dim random As Integer = testDie.Next(1, 9)
+        If random = 1 Then
+            TextBox1.Text = "A hidden object holds the villain's soul. "
+        ElseIf random = 2 Then
+            TextBox1.Text = "The villain's power is broken if the# death of its true 
+love is avenged. "
+        ElseIf random = 3 Then
+            TextBox1.Text = "The villain is weakened in the presence of a 
+particular artifact. "
+        ElseIf random = 4 Then
+            TextBox1.Text = "A special weapon deals extra damage when used 
+against the villain."
+        ElseIf random = 5 Then
+            TextBox1.Text = "The villain is destroyed if it speaks its true name. "
+        ElseIf random = 6 Then
+            TextBox1.Text = "An ancient prophecy or riddle reveals how the 
+villain can be overthrown. "
+        ElseIf random = 7 Then
+            TextBox1.Text = "The villain falls when an ancient enemy forgives its 
+past actions. "
+        ElseIf random = 8 Then
+            TextBox1.Text = "The villain loses its power if a mystic bargain it struck long ago is completed. "
+        End If
+        TextBox2.Text = random
+    End Sub
 End Class
 'Dim testDie As New Random
 'Dim random As Integer = testDie.Next(1, 21)

@@ -9,3 +9,14 @@ C:\Users\Chase\Desktop\D&D_Roller\obj\Debug\DDRoller.vbproj.GenerateResource.Cac
 C:\Users\Chase\Desktop\D&D_Roller\obj\Debug\D&D_Roller.exe
 C:\Users\Chase\Desktop\D&D_Roller\obj\Debug\D&D_Roller.xml
 C:\Users\Chase\Desktop\D&D_Roller\obj\Debug\D&D_Roller.pdb
+C:\Users\Chase\Repos\DDVB\D&D_Roller\bin\Debug\D&D_Roller.exe.config
+C:\Users\Chase\Repos\DDVB\D&D_Roller\obj\Debug\D&D_Roller.exe
+C:\Users\Chase\Repos\DDVB\D&D_Roller\obj\Debug\D&D_Roller.xml
+C:\Users\Chase\Repos\DDVB\D&D_Roller\obj\Debug\D&D_Roller.pdb
+C:\Users\Chase\Repos\DDVB\D&D_Roller\obj\Debug\DDRoller.vbprojResolveAssemblyReference.cache
+C:\Users\Chase\Repos\DDVB\D&D_Roller\obj\Debug\WindowsApplication1.RollerForm.resources
+C:\Users\Chase\Repos\DDVB\D&D_Roller\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Chase\Repos\DDVB\D&D_Roller\obj\Debug\DDRoller.vbproj.GenerateResource.Cache
+C:\Users\Chase\Repos\DDVB\D&D_Roller\bin\Debug\D&D_Roller.exe
+C:\Users\Chase\Repos\DDVB\D&D_Roller\bin\Debug\D&D_Roller.pdb
+C:\Users\Chase\Repos\DDVB\D&D_Roller\bin\Debug\D&D_Roller.xml

@@ -45,6 +45,11 @@ Partial Class RollerForm
         Me.Button19 = New System.Windows.Forms.Button()
         Me.Button20 = New System.Windows.Forms.Button()
         Me.Button21 = New System.Windows.Forms.Button()
+        Me.Button22 = New System.Windows.Forms.Button()
+        Me.Button23 = New System.Windows.Forms.Button()
+        Me.Button24 = New System.Windows.Forms.Button()
+        Me.Button25 = New System.Windows.Forms.Button()
+        Me.Button26 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -253,11 +258,61 @@ Partial Class RollerForm
         Me.Button21.Text = "NPC Mannerisms"
         Me.Button21.UseVisualStyleBackColor = True
         '
+        'Button22
+        '
+        Me.Button22.Location = New System.Drawing.Point(12, 99)
+        Me.Button22.Name = "Button22"
+        Me.Button22.Size = New System.Drawing.Size(128, 23)
+        Me.Button22.TabIndex = 23
+        Me.Button22.Text = "NPC Bonds"
+        Me.Button22.UseVisualStyleBackColor = True
+        '
+        'Button23
+        '
+        Me.Button23.Location = New System.Drawing.Point(146, 99)
+        Me.Button23.Name = "Button23"
+        Me.Button23.Size = New System.Drawing.Size(128, 23)
+        Me.Button23.TabIndex = 24
+        Me.Button23.Text = "NPC Flaws and Secrets"
+        Me.Button23.UseVisualStyleBackColor = True
+        '
+        'Button24
+        '
+        Me.Button24.Location = New System.Drawing.Point(280, 99)
+        Me.Button24.Name = "Button24"
+        Me.Button24.Size = New System.Drawing.Size(128, 23)
+        Me.Button24.TabIndex = 25
+        Me.Button24.Text = "Villain's Scheme"
+        Me.Button24.UseVisualStyleBackColor = True
+        '
+        'Button25
+        '
+        Me.Button25.Location = New System.Drawing.Point(417, 99)
+        Me.Button25.Name = "Button25"
+        Me.Button25.Size = New System.Drawing.Size(128, 23)
+        Me.Button25.TabIndex = 26
+        Me.Button25.Text = "Villain's Methods"
+        Me.Button25.UseVisualStyleBackColor = True
+        '
+        'Button26
+        '
+        Me.Button26.Location = New System.Drawing.Point(551, 99)
+        Me.Button26.Name = "Button26"
+        Me.Button26.Size = New System.Drawing.Size(128, 23)
+        Me.Button26.TabIndex = 27
+        Me.Button26.Text = "Villain's Weakness"
+        Me.Button26.UseVisualStyleBackColor = True
+        '
         'RollerForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(962, 434)
+        Me.Controls.Add(Me.Button26)
+        Me.Controls.Add(Me.Button25)
+        Me.Controls.Add(Me.Button24)
+        Me.Controls.Add(Me.Button23)
+        Me.Controls.Add(Me.Button22)
         Me.Controls.Add(Me.Button21)
         Me.Controls.Add(Me.Button20)
         Me.Controls.Add(Me.Button19)
@@ -311,4 +366,9 @@ Partial Class RollerForm
     Friend WithEvents Button19 As Button
     Friend WithEvents Button20 As Button
     Friend WithEvents Button21 As Button
+    Friend WithEvents Button22 As Button
+    Friend WithEvents Button23 As Button
+    Friend WithEvents Button24 As Button
+    Friend WithEvents Button25 As Button
+    Friend WithEvents Button26 As Button
 End Class
