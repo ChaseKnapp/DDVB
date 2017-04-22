@@ -1750,13 +1750,631 @@ past actions. "
         TextBox2.Text = random
     End Sub
 
-    Private Sub FileToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FileToolStripMenuItem.Click
-
-    End Sub
-
     Private Sub ReportBugToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ReportBugToolStripMenuItem.Click
         Dim SecondForm As New BugForm
         SecondForm.Show()
+    End Sub
+
+    Private Sub Button30_Click(sender As Object, e As EventArgs) Handles Button30.Click
+        Dim testDie As New Random
+        Dim random As Integer = testDie.Next(1, 21)
+        If random = 1 Then
+            TextBox1.Text = "Beholder "
+        ElseIf random = 2 Then
+            TextBox1.Text = "Cult or religious group (roll on the Cults and Religious Groups table to determine specifics) "
+        ElseIf random = 3 Then
+            TextBox1.Text = "Cult or religious group (roll on the Cults and Religious Groups table to determine specifics) "
+        ElseIf random = 4 Then
+            TextBox1.Text = "Cult or religious group (roll on the Cults and Religious Groups table to determine specifics) "
+        ElseIf random = 5 Then
+            TextBox1.Text = "Dwarves"
+        ElseIf random = 6 Then
+            TextBox1.Text = "Dwarves"
+        ElseIf random = 7 Then
+            TextBox1.Text = "Dwarves"
+        ElseIf random = 8 Then
+            TextBox1.Text = "Dwarves"
+        ElseIf random = 9 Then
+            TextBox1.Text = "Elves (including drow)"
+        ElseIf random = 10 Then
+            TextBox1.Text = "Giants"
+        ElseIf random = 11 Then
+            TextBox1.Text = "Hobgoblins"
+        ElseIf random = 12 Then
+            TextBox1.Text = "Humans (roll on the NPC Alignment and NPC 
+Class tables to determine specifics) "
+        ElseIf random = 13 Then
+            TextBox1.Text = "Humans (roll on the NPC Alignment and NPC 
+Class tables to determine specifics) "
+        ElseIf random = 14 Then
+            TextBox1.Text = "Humans (roll on the NPC Alignment and NPC 
+Class tables to determine specifics) "
+        ElseIf random = 15 Then
+            TextBox1.Text = "Humans (roll on the NPC Alignment and NPC 
+Class tables to determine specifics) "
+        ElseIf random = 16 Then
+            TextBox1.Text = "Kuo-toa "
+        ElseIf random = 17 Then
+            TextBox1.Text = "Lich "
+        ElseIf random = 18 Then
+            TextBox1.Text = "Mindflayers "
+        ElseIf random = 19 Then
+            TextBox1.Text = "Yuan-ti "
+        ElseIf random = 20 Then
+            TextBox1.Text = "No creator (natural caverns) "
+        End If
+        TextBox2.Text = random
+    End Sub
+
+    Private Sub Button29_Click(sender As Object, e As EventArgs) Handles Button29.Click
+        Dim testDie As New Random
+        Dim random As Integer = testDie.Next(1, 21)
+        If random = 1 Then
+            TextBox1.Text = "Demon-worshiping cul"
+        ElseIf random = 2 Then
+            TextBox1.Text = "Devil-worshiping cult "
+        ElseIf random = 3 Then
+            TextBox1.Text = "Elemental Air cult"
+        ElseIf random = 4 Then
+            TextBox1.Text = "Elemental Air cult"
+        ElseIf random = 5 Then
+            TextBox1.Text = "Elemental Earth cult"
+        ElseIf random = 6 Then
+            TextBox1.Text = "Elemental Earth cult"
+        ElseIf random = 7 Then
+            TextBox1.Text = "Elemental Fire cult"
+        ElseIf random = 8 Then
+            TextBox1.Text = "Elemental Fire cult"
+        ElseIf random = 9 Then
+            TextBox1.Text = "Elemental Water cult"
+        ElseIf random = 10 Then
+            TextBox1.Text = "Elemental Water cult"
+        ElseIf random = 11 Then
+            TextBox1.Text = "Worshipers of an evil deity"
+        ElseIf random = 12 Then
+            TextBox1.Text = "Worshipers of an evil deity"
+        ElseIf random = 13 Then
+            TextBox1.Text = "Worshipers of an evil deity"
+        ElseIf random = 14 Then
+            TextBox1.Text = "Worshipers of an evil deity"
+        ElseIf random = 15 Then
+            TextBox1.Text = "Worshipers of an evil deity"
+        ElseIf random = 16 Then
+            TextBox1.Text = "Worshipers of a good deity"
+        ElseIf random = 17 Then
+            TextBox1.Text = "Worshipers of a good deity"
+        ElseIf random = 18 Then
+            TextBox1.Text = "Worshipers of a neutral deity "
+        ElseIf random = 19 Then
+            TextBox1.Text = "Worshipers of a neutral deity "
+        ElseIf random = 20 Then
+            TextBox1.Text = "Worshipers of a neutral deity "
+        End If
+        TextBox2.Text = random
+    End Sub
+
+    Private Sub Button31_Click(sender As Object, e As EventArgs) Handles Button31.Click
+        Dim testDie As New Random
+        Dim random As Integer = testDie.Next(1, 21)
+        If random = 1 Then
+            TextBox1.Text = "Lawful good"
+        ElseIf random = 2 Then
+            TextBox1.Text = "Lawful good"
+        ElseIf random = 3 Then
+            TextBox1.Text = "Neutral good"
+        ElseIf random = 4 Then
+            TextBox1.Text = "Neutral good"
+        ElseIf random = 5 Then
+            TextBox1.Text = "Chaotic good"
+        ElseIf random = 6 Then
+            TextBox1.Text = "Chaotic good"
+        ElseIf random = 7 Then
+            TextBox1.Text = "Lawful neutral"
+        ElseIf random = 8 Then
+            TextBox1.Text = "Lawful neutral"
+        ElseIf random = 9 Then
+            TextBox1.Text = "Lawful neutral"
+        ElseIf random = 10 Then
+            TextBox1.Text = "Neutral"
+        ElseIf random = 11 Then
+            TextBox1.Text = "Neutral"
+        ElseIf random = 12 Then
+            TextBox1.Text = "Chaotic neutral "
+        ElseIf random = 13 Then
+            TextBox1.Text = "Lawful evil "
+        ElseIf random = 14 Then
+            TextBox1.Text = "Lawful evil "
+        ElseIf random = 15 Then
+            TextBox1.Text = "Lawful evil "
+        ElseIf random = 16 Then
+            TextBox1.Text = "Neutral evil "
+        ElseIf random = 17 Then
+            TextBox1.Text = "Neutral evil "
+        ElseIf random = 18 Then
+            TextBox1.Text = "Neutral evil "
+        ElseIf random = 19 Then
+            TextBox1.Text = "Chaotic evil "
+        ElseIf random = 20 Then
+            TextBox1.Text = "Chaotic evil "
+        End If
+        TextBox2.Text = random
+    End Sub
+
+    Private Sub Button34_Click(sender As Object, e As EventArgs) Handles Button34.Click
+        Dim testDie As New Random
+        Dim random As Integer = testDie.Next(1, 21)
+        If random = 1 Then
+            TextBox1.Text = "Barbarian"
+        ElseIf random = 2 Then
+            TextBox1.Text = "Bard"
+        ElseIf random = 3 Then
+            TextBox1.Text = "Cleric"
+        ElseIf random = 4 Then
+            TextBox1.Text = "Cleric"
+        ElseIf random = 5 Then
+            TextBox1.Text = "Druid"
+        ElseIf random = 6 Then
+            TextBox1.Text = "Fighter"
+        ElseIf random = 7 Then
+            TextBox1.Text = "Fighter"
+        ElseIf random = 8 Then
+            TextBox1.Text = "Monk"
+        ElseIf random = 9 Then
+            TextBox1.Text = "Paladin"
+        ElseIf random = 10 Then
+            TextBox1.Text = "Ranger"
+        ElseIf random = 11 Then
+            TextBox1.Text = "Rogue"
+        ElseIf random = 12 Then
+            TextBox1.Text = "Rogue"
+        ElseIf random = 13 Then
+            TextBox1.Text = "Rogue"
+        ElseIf random = 14 Then
+            TextBox1.Text = "Rogue"
+        ElseIf random = 15 Then
+            TextBox1.Text = "Sorcerer"
+        ElseIf random = 16 Then
+            TextBox1.Text = "Warlock"
+        ElseIf random = 17 Then
+            TextBox1.Text = "Wizard"
+        ElseIf random = 18 Then
+            TextBox1.Text = "Wizard"
+        ElseIf random = 19 Then
+            TextBox1.Text = "Wizard"
+        ElseIf random = 20 Then
+            TextBox1.Text = "Wizard"
+        End If
+        TextBox2.Text = random
+    End Sub
+
+    Private Sub Button33_Click(sender As Object, e As EventArgs) Handles Button33.Click
+        Dim testDie As New Random
+        Dim random As Integer = testDie.Next(1, 21)
+        If random = 1 Then
+            TextBox1.Text = "Death Trap"
+        ElseIf random = 2 Then
+            TextBox1.Text = "Lair"
+        ElseIf random = 3 Then
+            TextBox1.Text = "Lair"
+        ElseIf random = 4 Then
+            TextBox1.Text = "Lair"
+        ElseIf random = 5 Then
+            TextBox1.Text = "Lair"
+        ElseIf random = 6 Then
+            TextBox1.Text = "Maze"
+        ElseIf random = 7 Then
+            TextBox1.Text = "Mine"
+        ElseIf random = 8 Then
+            TextBox1.Text = "Mine"
+        ElseIf random = 9 Then
+            TextBox1.Text = "Mine"
+        ElseIf random = 10 Then
+            TextBox1.Text = "Planar Gate"
+        ElseIf random = 11 Then
+            TextBox1.Text = "Stronghold"
+        ElseIf random = 12 Then
+            TextBox1.Text = "Stronghold"
+        ElseIf random = 13 Then
+            TextBox1.Text = "Stronghold"
+        ElseIf random = 14 Then
+            TextBox1.Text = "Stronghold"
+        ElseIf random = 15 Then
+            TextBox1.Text = "Temple or Shrine"
+        ElseIf random = 16 Then
+            TextBox1.Text = "Temple or Shrine"
+        ElseIf random = 17 Then
+            TextBox1.Text = "Temple or Shrine"
+        ElseIf random = 18 Then
+            TextBox1.Text = "Tomb"
+        ElseIf random = 19 Then
+            TextBox1.Text = "Tomb"
+        ElseIf random = 20 Then
+            TextBox1.Text = "Treasure Vault"
+        End If
+        TextBox2.Text = random
+    End Sub
+
+    Private Sub Button32_Click(sender As Object, e As EventArgs) Handles Button32.Click
+        Dim testDie As New Random
+        Dim random As Integer = testDie.Next(1, 21)
+        If random = 1 Then
+            TextBox1.Text = "Abandoned by creators"
+        ElseIf random = 2 Then
+            TextBox1.Text = "Abandoned by creators"
+        ElseIf random = 3 Then
+            TextBox1.Text = "Abandoned by creators"
+        ElseIf random = 4 Then
+            TextBox1.Text = "Abandoned due to plague"
+        ElseIf random = 5 Then
+            TextBox1.Text = "Conquered by invaders"
+        ElseIf random = 6 Then
+            TextBox1.Text = "Conquered by invaders"
+        ElseIf random = 7 Then
+            TextBox1.Text = "Conquered by invaders"
+        ElseIf random = 8 Then
+            TextBox1.Text = "Conquered by invaders"
+        ElseIf random = 9 Then
+            TextBox1.Text = "Creators destroyed by attacking raiders "
+        ElseIf random = 10 Then
+            TextBox1.Text = "Creators destroyed by attacking raiders "
+        ElseIf random = 11 Then
+            TextBox1.Text = "Creators destroyed by discovery made within the site "
+        ElseIf random = 12 Then
+            TextBox1.Text = "Creators destroyed by internal conflict"
+        ElseIf random = 13 Then
+            TextBox1.Text = "Creators destroyed by magical catastrophe"
+        ElseIf random = 14 Then
+            TextBox1.Text = "Creators destroyed by natural disaster "
+        ElseIf random = 15 Then
+            TextBox1.Text = "Creators destroyed by natural disaster "
+        ElseIf random = 16 Then
+            TextBox1.Text = "Location cursed by the gods and shunned"
+        ElseIf random = 17 Then
+            TextBox1.Text = "Original creator still in control "
+        ElseIf random = 18 Then
+            TextBox1.Text = "Original creator still in control "
+        ElseIf random = 19 Then
+            TextBox1.Text = "Overrun by planar creatures "
+        ElseIf random = 20 Then
+            TextBox1.Text = "Site of a great miracle"
+        End If
+        TextBox2.Text = random
+    End Sub
+
+    Private Sub Button35_Click(sender As Object, e As EventArgs) Handles Button35.Click
+        Dim testDie As New Random
+        Dim random As Integer = testDie.Next(1, 21)
+        If random = 1 Then
+            TextBox1.Text = "Sealed burial mound or pyramid "
+        ElseIf random = 2 Then
+            TextBox1.Text = "Plundered burial mound or pyramid "
+        ElseIf random = 3 Then
+            TextBox1.Text = "Faces carved into a mountainside or cliff "
+        ElseIf random = 4 Then
+            TextBox1.Text = "Giant statues carved out of a mountainside or cliff"
+        ElseIf random = 5 Then
+            TextBox1.Text = "Intact obelisk etched with a warning, historical 
+lore, dedication, or religious iconography "
+        ElseIf random = 6 Then
+            TextBox1.Text = "Intact obelisk etched with a warning, historical 
+lore, dedication, or religious iconography "
+        ElseIf random = 7 Then
+            TextBox1.Text = "Ruined or toppled obelisk "
+        ElseIf random = 8 Then
+            TextBox1.Text = "Ruined or toppled obelisk "
+        ElseIf random = 9 Then
+            TextBox1.Text = "Intact statue of a person or deity"
+        ElseIf random = 10 Then
+            TextBox1.Text = "Intact statue of a person or deity"
+        ElseIf random = 11 Then
+            TextBox1.Text = "Ruined or toppled statue of a person or deity"
+        ElseIf random = 12 Then
+            TextBox1.Text = "Ruined or toppled statue of a person or deity"
+        ElseIf random = 13 Then
+            TextBox1.Text = "Ruined or toppled statue of a person or deity"
+        ElseIf random = 14 Then
+            TextBox1.Text = "Great stone wall, intact, with tower fortifications 
+spaced at one-mile intervals "
+        ElseIf random = 15 Then
+            TextBox1.Text = "Great stone wall in ruins"
+        ElseIf random = 16 Then
+            TextBox1.Text = "Great stone arch "
+        ElseIf random = 17 Then
+            TextBox1.Text = "Fountain "
+        ElseIf random = 18 Then
+            TextBox1.Text = "Intact circle of standing stones"
+        ElseIf random = 19 Then
+            TextBox1.Text = "Ruined or toppled circle of standing stones"
+        ElseIf random = 20 Then
+            TextBox1.Text = "Totem pole "
+        End If
+        TextBox2.Text = random
+    End Sub
+
+    Private Sub Button37_Click(sender As Object, e As EventArgs) Handles Button37.Click
+        Dim testDie As New Random
+        Dim random As Integer = testDie.Next(1, 21)
+        If random = 1 Then
+            TextBox1.Text = "Dead magic zone (similar to an anti magic field) "
+        ElseIf random = 2 Then
+            TextBox1.Text = "Dead magic zone (similar to an anti magic field) "
+        ElseIf random = 3 Then
+            TextBox1.Text = "Wild magic zone (roll on the Wi ld Magic Surge table in the Player's Handbook whenever a spell is cast within the zone) "
+        ElseIf random = 4 Then
+            TextBox1.Text = "Boulder carved with talking faces "
+        ElseIf random = 5 Then
+            TextBox1.Text = "Crystal cave that mystically answers questions "
+        ElseIf random = 6 Then
+            TextBox1.Text = "Ancient tree containing a trapped spirit "
+        ElseIf random = 7 Then
+            TextBox1.Text = "Battlefield where lingering fog occasionally assumes humanoid forms"
+        ElseIf random = 8 Then
+            TextBox1.Text = "Battlefield where lingering fog occasionally assumes humanoid forms"
+        ElseIf random = 9 Then
+            TextBox1.Text = "Permanent portal to another plane of existence "
+        ElseIf random = 10 Then
+            TextBox1.Text = "Permanent portal to another plane of existence "
+        ElseIf random = 11 Then
+            TextBox1.Text = "Wishing well "
+        ElseIf random = 12 Then
+            TextBox1.Text = "Giant crystal shard protruding from the ground"
+        ElseIf random = 13 Then
+            TextBox1.Text = "Wrecked ship, which might be nowhere near water"
+        ElseIf random = 14 Then
+            TextBox1.Text = "Haunted hill or barrow mound "
+        ElseIf random = 15 Then
+            TextBox1.Text = "Haunted hill or barrow mound "
+        ElseIf random = 16 Then
+            TextBox1.Text = "River ferry guided by a skeletal captain"
+        ElseIf random = 17 Then
+            TextBox1.Text = "Field of petrified soldiers or other creatures"
+        ElseIf random = 18 Then
+            TextBox1.Text = "Forest of petrified or awakened trees"
+        ElseIf random = 19 Then
+            TextBox1.Text = "Canyon containing a dragons' graveyard "
+        ElseIf random = 20 Then
+            TextBox1.Text = "Floating earth mote with a tower on it"
+        End If
+        TextBox2.Text = random
+    End Sub
+
+    Private Sub Button36_Click(sender As Object, e As EventArgs) Handles Button36.Click
+        Dim testDie As New Random
+        Dim random As Integer = testDie.Next(1, 21)
+        Dim random2 As Integer = testDie.Next(1, 21)
+        Dim random3 As Integer = testDie.Next(1, 21)
+        Dim text1 As String
+        Dim text2 As String
+        Dim text3 As String
+        If random >= 1 And random <= 14 Then
+            text1 = "Temperature: Normal For the Season"
+        ElseIf random >= 15 And random <= 17 Then
+            text1 = "Temperaure: 1d4 x 10 degrees Fahrenheit colder than normal"
+        ElseIf random >= 18 And random <= 20 Then
+            text1 = "Temperature: 1d4 x 10 degrees Fahrenheit hotter than normal "
+        End If
+        If random2 >= 1 And random <= 12 Then
+            text2 = "Wind: None"
+        ElseIf random2 >= 13 And random <= 17 Then
+            text2 = "Wind: Light"
+        ElseIf random2 >= 18 And random <= 20 Then
+            text2 = "Wind: Strong"
+        End If
+        If random3 >= 1 And random <= 12 Then
+            text3 = "Precipitation: None"
+        ElseIf random3 >= 13 And random <= 17 Then
+            text3 = "Precipitation: Light rain or light snowfall"
+        ElseIf random3 >= 18 And random <= 20 Then
+            text3 = "Precipitation: Heavy rain or heavy snowfall"
+        End If
+        TextBox1.Text = text1 + " " + text2 + " " + text3
+        TextBox2.Text = random & "," & random2 & "," & random3
+    End Sub
+
+    Private Sub Button41_Click(sender As Object, e As EventArgs) Handles Button41.Click
+        Dim testDie As New Random
+        Dim random As Integer = testDie.Next(1, 21)
+        If random >= 1 And random <= 10 Then
+            TextBox1.Text = "Harmony "
+        ElseIf random >= 11 And random <= 14 Then
+            TextBox1.Text = "Tension or rival ry "
+        ElseIf random >= 15 And random <= 16 Then
+            TextBox1.Text = "Racial majority are conquerors"
+        ElseIf random = 17 Then
+            TextBox1.Text = "Racial minority are rulers"
+        ElseIf random = 18 Then
+            TextBox1.Text = "Racial minority are refugees "
+        ElseIf random = 19 Then
+            TextBox1.Text = "Racial majority oppresses minority"
+        ElseIf random = 20 Then
+            TextBox1.Text = "Racial minority oppresses majority "
+        End If
+        TextBox2.Text = random
+    End Sub
+
+    Private Sub Button40_Click(sender As Object, e As EventArgs) Handles Button40.Click
+        Dim testDie As New Random
+        Dim random As Integer = testDie.Next(1, 21)
+        If random >= 1 And random <= 5 Then
+            TextBox1.Text = "Respected, fair, and just "
+        ElseIf random >= 6 And random <= 8 Then
+            TextBox1.Text = "Feared tyrant "
+        ElseIf random = 9 Then
+            TextBox1.Text = "Weakling manipulated by others"
+        ElseIf random = 10 Then
+            TextBox1.Text = "Illegitimate ruler, simmering civil war"
+        ElseIf random = 11 Then
+            TextBox1.Text = "Ruled or controlled by a powerful monster "
+        ElseIf random = 12 Then
+            TextBox1.Text = "Mysterious, anonymous cabal "
+        ElseIf random = 13 Then
+            TextBox1.Text = "Contested leadership, open fighting "
+        ElseIf random = 14 Then
+            TextBox1.Text = "Cabal seized power openly "
+        ElseIf random = 15 Then
+            TextBox1.Text = "Doltish lout"
+        ElseIf random = 16 Then
+            TextBox1.Text = "On deathbed, claimants compete for power"
+        ElseIf random >= 17 And random <= 18 Then
+            TextBox1.Text = "I ron-willed but respected "
+        ElseIf random >= 19 And random <= 20 Then
+            TextBox1.Text = "Religious leader"
+        End If
+        TextBox2.Text = random
+    End Sub
+
+    Private Sub Button39_Click(sender As Object, e As EventArgs) Handles Button39.Click
+        Dim testDie As New Random
+        Dim random As Integer = testDie.Next(1, 21)
+        If random = 1 Then
+            TextBox1.Text = "Canals in place of streets"
+        ElseIf random = 2 Then
+            TextBox1.Text = "Massive statue or monument "
+        ElseIf random = 3 Then
+            TextBox1.Text = "Grand temple "
+        ElseIf random = 4 Then
+            TextBox1.Text = "Large fortress "
+        ElseIf random = 5 Then
+            TextBox1.Text = "Verdant parks and orchards"
+        ElseIf random = 6 Then
+            TextBox1.Text = "River divides town"
+        ElseIf random = 7 Then
+            TextBox1.Text = "Major trade center"
+        ElseIf random = 8 Then
+            TextBox1.Text = "Headquarters of a powerful family or gu ild "
+        ElseIf random = 9 Then
+            TextBox1.Text = "Population mostly wealthy "
+        ElseIf random = 10 Then
+            TextBox1.Text = "Destitute, rundown "
+        ElseIf random = 11 Then
+            TextBox1.Text = "Awful smell (tanneries, open sewers)"
+        ElseIf random = 12 Then
+            TextBox1.Text = "Center of trade for one specific good "
+        ElseIf random = 13 Then
+            TextBox1.Text = "Site of many battles "
+        ElseIf random = 14 Then
+            TextBox1.Text = "Site of a mythic or magical event "
+        ElseIf random = 15 Then
+            TextBox1.Text = "Important library or archive "
+        ElseIf random = 16 Then
+            TextBox1.Text = "Worship of all gods banned "
+        ElseIf random = 17 Then
+            TextBox1.Text = "Sinister reputation"
+        ElseIf random = 18 Then
+            TextBox1.Text = "Notable library or academy"
+        ElseIf random = 19 Then
+            TextBox1.Text = "Site of important tomb or graveyard "
+        ElseIf random = 20 Then
+            TextBox1.Text = "Built atop ancient ruins "
+        End If
+        TextBox2.Text = random
+    End Sub
+
+    Private Sub Button38_Click(sender As Object, e As EventArgs) Handles Button38.Click
+        Dim testDie As New Random
+        Dim random As Integer = testDie.Next(1, 21)
+        If random = 1 Then
+            TextBox1.Text = "Delicious cuisine"
+        ElseIf random = 2 Then
+            TextBox1.Text = "Rude people"
+        ElseIf random = 3 Then
+            TextBox1.Text = "Greedy merchants"
+        ElseIf random = 4 Then
+            TextBox1.Text = "Artists and writers"
+        ElseIf random = 5 Then
+            TextBox1.Text = "Great herojsavior"
+        ElseIf random = 6 Then
+            TextBox1.Text = "Flowers"
+        ElseIf random = 7 Then
+            TextBox1.Text = "Hordes of beggars"
+        ElseIf random = 8 Then
+            TextBox1.Text = "Tough warriors"
+        ElseIf random = 9 Then
+            TextBox1.Text = "Dark magic"
+        ElseIf random = 10 Then
+            TextBox1.Text = "Decadence"
+        ElseIf random = 11 Then
+            TextBox1.Text = "Piety "
+        ElseIf random = 12 Then
+            TextBox1.Text = "Gambling "
+        ElseIf random = 13 Then
+            TextBox1.Text = "Godlessness"
+        ElseIf random = 14 Then
+            TextBox1.Text = "Education "
+        ElseIf random = 15 Then
+            TextBox1.Text = "Wines"
+        ElseIf random = 16 Then
+            TextBox1.Text = "High fashion"
+        ElseIf random = 17 Then
+            TextBox1.Text = "Political intrigue"
+        ElseIf random = 18 Then
+            TextBox1.Text = "Powerful guilds "
+        ElseIf random = 19 Then
+            TextBox1.Text = "Strong drink "
+        ElseIf random = 20 Then
+            TextBox1.Text = "Patriotism "
+        End If
+        TextBox2.Text = random
+    End Sub
+
+    Private Sub Button43_Click(sender As Object, e As EventArgs) Handles Button43.Click
+        Dim testDie As New Random
+        Dim random As Integer = testDie.Next(1, 21)
+        If random = 1 Then
+            TextBox1.Text = "Suspected vampire infestation"
+        ElseIf random = 2 Then
+            TextBox1.Text = "New cult seeks converts "
+        ElseIf random = 3 Then
+            TextBox1.Text = "Important figure died (murder suspected)"
+        ElseIf random = 4 Then
+            TextBox1.Text = "War between rival thieves' gu ilds"
+        ElseIf random >= 5 And random <= 6 Then
+            TextBox1.Text = "Plague or famine (sparks riots) "
+        ElseIf random = 7 Then
+            TextBox1.Text = "Corrupt officials "
+        ElseIf random >= 8 And random <= 9 Then
+            TextBox1.Text = "Marauding monsters "
+        ElseIf random = 10 Then
+            TextBox1.Text = "Powerful wizard has moved into town "
+        ElseIf random = 11 Then
+            TextBox1.Text = "Economic depression (trade disrupted) "
+        ElseIf random = 12 Then
+            TextBox1.Text = "Flooding "
+        ElseIf random = 13 Then
+            TextBox1.Text = "Undead stirring in cemeteries"
+        ElseIf random = 14 Then
+            TextBox1.Text = "Prophecy of doom "
+        ElseIf random = 15 Then
+            TextBox1.Text = "Brink of war "
+        ElseIf random = 16 Then
+            TextBox1.Text = "Internal strife (leads to anarchy) "
+        ElseIf random = 17 Then
+            TextBox1.Text = "Besieged by enemies "
+        ElseIf random = 18 Then
+            TextBox1.Text = "Scandal threatens powerful families"
+        ElseIf random = 19 Then
+            TextBox1.Text = "Dungeon discovered (adventurers flock to town)"
+        ElseIf random = 20 Then
+            TextBox1.Text = "Religious sects struggle for power "
+        End If
+        TextBox2.Text = random
+    End Sub
+
+    Private Sub Button42_Click(sender As Object, e As EventArgs) Handles Button42.Click
+        Dim testDie As New Random
+        Dim random As Integer = testDie.Next(1, 21)
+        If random >= 1 And random <= 10 Then
+            TextBox1.Text = "Residence (roll once on the Residence table)"
+        ElseIf random >= 11 And random <= 12 Then
+            TextBox1.Text = "Religious (roll once on the Religious Building table)"
+        ElseIf random >= 13 And random <= 15 Then
+            TextBox1.Text = "Tavern (roll once on the Tavern table and twice on the Tavern Name Generator table) "
+        ElseIf random >= 16 And random <= 17 Then
+            TextBox1.Text = "Warehouse (roll once on the Warehouse table)"
+        ElseIf random >= 18 And random <= 20 Then
+            TextBox1.Text = "Shop (roll once on the Shop table) "
+        End If
+        TextBox2.Text = random
     End Sub
 End Class
 'Dim testDie As New Random

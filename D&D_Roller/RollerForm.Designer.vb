@@ -55,6 +55,21 @@ Partial Class RollerForm
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ReportBugToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Button29 = New System.Windows.Forms.Button()
+        Me.Button30 = New System.Windows.Forms.Button()
+        Me.Button31 = New System.Windows.Forms.Button()
+        Me.Button32 = New System.Windows.Forms.Button()
+        Me.Button33 = New System.Windows.Forms.Button()
+        Me.Button34 = New System.Windows.Forms.Button()
+        Me.Button35 = New System.Windows.Forms.Button()
+        Me.Button36 = New System.Windows.Forms.Button()
+        Me.Button37 = New System.Windows.Forms.Button()
+        Me.Button38 = New System.Windows.Forms.Button()
+        Me.Button39 = New System.Windows.Forms.Button()
+        Me.Button40 = New System.Windows.Forms.Button()
+        Me.Button41 = New System.Windows.Forms.Button()
+        Me.Button42 = New System.Windows.Forms.Button()
+        Me.Button43 = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -69,18 +84,24 @@ Partial Class RollerForm
         '
         'TextBox1
         '
+        Me.TextBox1.BackColor = System.Drawing.SystemColors.Window
         Me.TextBox1.Location = New System.Drawing.Point(336, 329)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.ReadOnly = True
         Me.TextBox1.Size = New System.Drawing.Size(280, 66)
         Me.TextBox1.TabIndex = 1
+        Me.TextBox1.TabStop = False
         '
         'TextBox2
         '
+        Me.TextBox2.BackColor = System.Drawing.SystemColors.Window
         Me.TextBox2.Location = New System.Drawing.Point(451, 303)
         Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.ReadOnly = True
         Me.TextBox2.Size = New System.Drawing.Size(41, 20)
         Me.TextBox2.TabIndex = 2
+        Me.TextBox2.TabStop = False
         '
         'Button2
         '
@@ -212,7 +233,7 @@ Partial Class RollerForm
         '
         'Button16
         '
-        Me.Button16.Location = New System.Drawing.Point(551, 85)
+        Me.Button16.Location = New System.Drawing.Point(548, 85)
         Me.Button16.Name = "Button16"
         Me.Button16.Size = New System.Drawing.Size(128, 23)
         Me.Button16.TabIndex = 17
@@ -221,7 +242,7 @@ Partial Class RollerForm
         '
         'Button17
         '
-        Me.Button17.Location = New System.Drawing.Point(417, 85)
+        Me.Button17.Location = New System.Drawing.Point(414, 85)
         Me.Button17.Name = "Button17"
         Me.Button17.Size = New System.Drawing.Size(128, 23)
         Me.Button17.TabIndex = 18
@@ -257,7 +278,7 @@ Partial Class RollerForm
         '
         'Button21
         '
-        Me.Button21.Location = New System.Drawing.Point(685, 85)
+        Me.Button21.Location = New System.Drawing.Point(682, 85)
         Me.Button21.Name = "Button21"
         Me.Button21.Size = New System.Drawing.Size(128, 23)
         Me.Button21.TabIndex = 22
@@ -293,7 +314,7 @@ Partial Class RollerForm
         '
         'Button25
         '
-        Me.Button25.Location = New System.Drawing.Point(417, 114)
+        Me.Button25.Location = New System.Drawing.Point(414, 114)
         Me.Button25.Name = "Button25"
         Me.Button25.Size = New System.Drawing.Size(128, 23)
         Me.Button25.TabIndex = 26
@@ -302,7 +323,7 @@ Partial Class RollerForm
         '
         'Button26
         '
-        Me.Button26.Location = New System.Drawing.Point(551, 114)
+        Me.Button26.Location = New System.Drawing.Point(548, 114)
         Me.Button26.Name = "Button26"
         Me.Button26.Size = New System.Drawing.Size(128, 23)
         Me.Button26.TabIndex = 27
@@ -311,7 +332,7 @@ Partial Class RollerForm
         '
         'Button27
         '
-        Me.Button27.Location = New System.Drawing.Point(685, 114)
+        Me.Button27.Location = New System.Drawing.Point(682, 114)
         Me.Button27.Name = "Button27"
         Me.Button27.Size = New System.Drawing.Size(128, 23)
         Me.Button27.TabIndex = 28
@@ -349,11 +370,162 @@ Partial Class RollerForm
         Me.ReportBugToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
         Me.ReportBugToolStripMenuItem.Text = "Report Bug/Mistake"
         '
+        'Button29
+        '
+        Me.Button29.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.25!)
+        Me.Button29.Location = New System.Drawing.Point(146, 143)
+        Me.Button29.Name = "Button29"
+        Me.Button29.Size = New System.Drawing.Size(128, 23)
+        Me.Button29.TabIndex = 31
+        Me.Button29.Text = "Cults and Religious Groups" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Button29.UseVisualStyleBackColor = True
+        '
+        'Button30
+        '
+        Me.Button30.Location = New System.Drawing.Point(12, 143)
+        Me.Button30.Name = "Button30"
+        Me.Button30.Size = New System.Drawing.Size(128, 23)
+        Me.Button30.TabIndex = 32
+        Me.Button30.Text = "Dungeon Creator" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Button30.UseVisualStyleBackColor = True
+        '
+        'Button31
+        '
+        Me.Button31.Location = New System.Drawing.Point(280, 143)
+        Me.Button31.Name = "Button31"
+        Me.Button31.Size = New System.Drawing.Size(128, 23)
+        Me.Button31.TabIndex = 33
+        Me.Button31.Text = "NPC Alignment"
+        Me.Button31.UseVisualStyleBackColor = True
+        '
+        'Button32
+        '
+        Me.Button32.Location = New System.Drawing.Point(682, 141)
+        Me.Button32.Name = "Button32"
+        Me.Button32.Size = New System.Drawing.Size(128, 23)
+        Me.Button32.TabIndex = 34
+        Me.Button32.Text = "Dungeon History"
+        Me.Button32.UseVisualStyleBackColor = True
+        '
+        'Button33
+        '
+        Me.Button33.Location = New System.Drawing.Point(548, 143)
+        Me.Button33.Name = "Button33"
+        Me.Button33.Size = New System.Drawing.Size(128, 23)
+        Me.Button33.TabIndex = 35
+        Me.Button33.Text = "Dungeon Purpose"
+        Me.Button33.UseVisualStyleBackColor = True
+        '
+        'Button34
+        '
+        Me.Button34.Location = New System.Drawing.Point(414, 143)
+        Me.Button34.Name = "Button34"
+        Me.Button34.Size = New System.Drawing.Size(128, 23)
+        Me.Button34.TabIndex = 36
+        Me.Button34.Text = "NPC Class"
+        Me.Button34.UseVisualStyleBackColor = True
+        '
+        'Button35
+        '
+        Me.Button35.Location = New System.Drawing.Point(816, 141)
+        Me.Button35.Name = "Button35"
+        Me.Button35.Size = New System.Drawing.Size(128, 23)
+        Me.Button35.TabIndex = 37
+        Me.Button35.Text = "Monuments" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Button35.UseVisualStyleBackColor = True
+        '
+        'Button36
+        '
+        Me.Button36.Location = New System.Drawing.Point(146, 172)
+        Me.Button36.Name = "Button36"
+        Me.Button36.Size = New System.Drawing.Size(128, 23)
+        Me.Button36.TabIndex = 38
+        Me.Button36.Text = "Weather" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Button36.UseVisualStyleBackColor = True
+        '
+        'Button37
+        '
+        Me.Button37.Location = New System.Drawing.Point(12, 172)
+        Me.Button37.Name = "Button37"
+        Me.Button37.Size = New System.Drawing.Size(128, 23)
+        Me.Button37.TabIndex = 39
+        Me.Button37.Text = "Weird Locales" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Button37.UseVisualStyleBackColor = True
+        '
+        'Button38
+        '
+        Me.Button38.Location = New System.Drawing.Point(682, 172)
+        Me.Button38.Name = "Button38"
+        Me.Button38.Size = New System.Drawing.Size(128, 23)
+        Me.Button38.TabIndex = 40
+        Me.Button38.Text = "Known For Its" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Button38.UseVisualStyleBackColor = True
+        '
+        'Button39
+        '
+        Me.Button39.Location = New System.Drawing.Point(548, 172)
+        Me.Button39.Name = "Button39"
+        Me.Button39.Size = New System.Drawing.Size(128, 23)
+        Me.Button39.TabIndex = 41
+        Me.Button39.Text = "Notable Traits" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Button39.UseVisualStyleBackColor = True
+        '
+        'Button40
+        '
+        Me.Button40.Location = New System.Drawing.Point(414, 172)
+        Me.Button40.Name = "Button40"
+        Me.Button40.Size = New System.Drawing.Size(128, 23)
+        Me.Button40.TabIndex = 42
+        Me.Button40.Text = "Ruler's Status" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Button40.UseVisualStyleBackColor = True
+        '
+        'Button41
+        '
+        Me.Button41.Location = New System.Drawing.Point(280, 172)
+        Me.Button41.Name = "Button41"
+        Me.Button41.Size = New System.Drawing.Size(128, 23)
+        Me.Button41.TabIndex = 43
+        Me.Button41.Text = "Race Relations" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Button41.UseVisualStyleBackColor = True
+        '
+        'Button42
+        '
+        Me.Button42.Location = New System.Drawing.Point(12, 201)
+        Me.Button42.Name = "Button42"
+        Me.Button42.Size = New System.Drawing.Size(128, 23)
+        Me.Button42.TabIndex = 44
+        Me.Button42.Text = "Building Type" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Button42.UseVisualStyleBackColor = True
+        '
+        'Button43
+        '
+        Me.Button43.Location = New System.Drawing.Point(816, 172)
+        Me.Button43.Name = "Button43"
+        Me.Button43.Size = New System.Drawing.Size(128, 23)
+        Me.Button43.TabIndex = 45
+        Me.Button43.Text = "Current Calamity" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Button43.UseVisualStyleBackColor = True
+        '
         'RollerForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(962, 434)
+        Me.Controls.Add(Me.Button43)
+        Me.Controls.Add(Me.Button42)
+        Me.Controls.Add(Me.Button41)
+        Me.Controls.Add(Me.Button40)
+        Me.Controls.Add(Me.Button39)
+        Me.Controls.Add(Me.Button38)
+        Me.Controls.Add(Me.Button37)
+        Me.Controls.Add(Me.Button36)
+        Me.Controls.Add(Me.Button35)
+        Me.Controls.Add(Me.Button34)
+        Me.Controls.Add(Me.Button33)
+        Me.Controls.Add(Me.Button32)
+        Me.Controls.Add(Me.Button31)
+        Me.Controls.Add(Me.Button30)
+        Me.Controls.Add(Me.Button29)
         Me.Controls.Add(Me.Button28)
         Me.Controls.Add(Me.Button27)
         Me.Controls.Add(Me.Button26)
@@ -428,4 +600,19 @@ Partial Class RollerForm
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents FileToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ReportBugToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Button29 As Button
+    Friend WithEvents Button30 As Button
+    Friend WithEvents Button31 As Button
+    Friend WithEvents Button32 As Button
+    Friend WithEvents Button33 As Button
+    Friend WithEvents Button34 As Button
+    Friend WithEvents Button35 As Button
+    Friend WithEvents Button36 As Button
+    Friend WithEvents Button37 As Button
+    Friend WithEvents Button38 As Button
+    Friend WithEvents Button39 As Button
+    Friend WithEvents Button40 As Button
+    Friend WithEvents Button41 As Button
+    Friend WithEvents Button42 As Button
+    Friend WithEvents Button43 As Button
 End Class
