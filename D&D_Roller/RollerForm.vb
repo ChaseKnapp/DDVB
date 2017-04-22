@@ -1,4 +1,7 @@
-﻿Public Class RollerForm
+﻿Imports System.Web
+Imports System.IO
+Imports System.Net.Mail
+Public Class RollerForm
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Dim testDie As New Random
         Dim random As Integer = testDie.Next(1, 21)
@@ -1491,6 +1494,269 @@ past actions. "
             TextBox1.Text = "The villain loses its power if a mystic bargain it struck long ago is completed. "
         End If
         TextBox2.Text = random
+    End Sub
+
+    Private Sub Button27_Click(sender As Object, e As EventArgs) Handles Button27.Click
+        Dim testDie As New Random
+        Dim random As Integer = testDie.Next(1, 101)
+        If random = 1 Then
+            TextBox1.Text = "A building in a city "
+        ElseIf random = 2 Then
+            TextBox1.Text = "A building in a city "
+        ElseIf random = 3 Then
+            TextBox1.Text = "A building in a city "
+        ElseIf random = 4 Then
+            TextBox1.Text = "A building in a city "
+        ElseIf random = 5 Then
+            TextBox1.Text = "Catacombs or sewers beneath a city "
+        ElseIf random = 6 Then
+            TextBox1.Text = "Catacombs or sewers beneath a city "
+        ElseIf random = 7 Then
+            TextBox1.Text = "Catacombs or sewers beneath a city "
+        ElseIf random = 8 Then
+            TextBox1.Text = "Catacombs or sewers beneath a city "
+        ElseIf random = 9 Then
+            TextBox1.Text = "Beneath a farmhouse "
+        ElseIf random = 10 Then
+            TextBox1.Text = "Beneath a farmhouse "
+        ElseIf random = 11 Then
+            TextBox1.Text = "Beneath a farmhouse "
+        ElseIf random = 12 Then
+            TextBox1.Text = "Beneath a farmhouse "
+        ElseIf random = 13 Then
+            TextBox1.Text = "Beneath a graveyard "
+        ElseIf random = 14 Then
+            TextBox1.Text = "Beneath a graveyard "
+        ElseIf random = 15 Then
+            TextBox1.Text = "Beneath a graveyard "
+        ElseIf random = 16 Then
+            TextBox1.Text = "Beneath a graveyard "
+        ElseIf random = 17 Then
+            TextBox1.Text = "Beneath a ruined castle "
+        ElseIf random = 18 Then
+            TextBox1.Text = "Beneath a ruined castle "
+        ElseIf random = 19 Then
+            TextBox1.Text = "Beneath a ruined castle "
+        ElseIf random = 20 Then
+            TextBox1.Text = "Beneath a ruined castle "
+        ElseIf random = 21 Then
+            TextBox1.Text = "Beneath a ruined castle "
+        ElseIf random = 22 Then
+            TextBox1.Text = "Beneath a ruined castle "
+        ElseIf random = 23 Then
+            TextBox1.Text = "Beneath a ruined city "
+        ElseIf random = 24 Then
+            TextBox1.Text = "Beneath a ruined city "
+        ElseIf random = 25 Then
+            TextBox1.Text = "Beneath a ruined city "
+        ElseIf random = 26 Then
+            TextBox1.Text = "Beneath a ruined city "
+        ElseIf random = 27 Then
+            TextBox1.Text = "Beneath a temple "
+        ElseIf random = 28 Then
+            TextBox1.Text = "Beneath a temple "
+        ElseIf random = 29 Then
+            TextBox1.Text = "Beneath a temple "
+        ElseIf random = 30 Then
+            TextBox1.Text = "Beneath a temple "
+        ElseIf random = 31 Then
+            TextBox1.Text = "In a chasm"
+        ElseIf random = 32 Then
+            TextBox1.Text = "In a chasm"
+        ElseIf random = 33 Then
+            TextBox1.Text = "In a chasm"
+        ElseIf random = 34 Then
+            TextBox1.Text = "In a chasm"
+        ElseIf random = 35 Then
+            TextBox1.Text = "In a cliff face "
+        ElseIf random = 36 Then
+            TextBox1.Text = "In a cliff face "
+        ElseIf random = 37 Then
+            TextBox1.Text = "In a cliff face "
+        ElseIf random = 38 Then
+            TextBox1.Text = "In a cliff face "
+        ElseIf random = 39 Then
+            TextBox1.Text = "In a deser"
+        ElseIf random = 40 Then
+            TextBox1.Text = "In a deser"
+        ElseIf random = 41 Then
+            TextBox1.Text = "In a deser"
+        ElseIf random = 42 Then
+            TextBox1.Text = "In a deser"
+        ElseIf random = 43 Then
+            TextBox1.Text = "In a forest "
+        ElseIf random = 44 Then
+            TextBox1.Text = "In a forest "
+        ElseIf random = 45 Then
+            TextBox1.Text = "In a forest "
+        ElseIf random = 46 Then
+            TextBox1.Text = "In a forest "
+        ElseIf random = 47 Then
+            TextBox1.Text = "In a glacier"
+        ElseIf random = 48 Then
+            TextBox1.Text = "In a glacier"
+        ElseIf random = 49 Then
+            TextBox1.Text = "In a glacier"
+        ElseIf random = 50 Then
+            TextBox1.Text = "In a glacier"
+        ElseIf random = 51 Then
+            TextBox1.Text = "In a gorge"
+        ElseIf random = 52 Then
+            TextBox1.Text = "In a gorge"
+        ElseIf random = 53 Then
+            TextBox1.Text = "In a gorge"
+        ElseIf random = 54 Then
+            TextBox1.Text = "In a gorge"
+        ElseIf random = 55 Then
+            TextBox1.Text = "In a jungle"
+        ElseIf random = 56 Then
+            TextBox1.Text = "In a jungle"
+        ElseIf random = 57 Then
+            TextBox1.Text = "In a jungle"
+        ElseIf random = 58 Then
+            TextBox1.Text = "In a jungle"
+        ElseIf random = 59 Then
+            TextBox1.Text = "In a mountain pass"
+        ElseIf random = 60 Then
+            TextBox1.Text = "In a mountain pass"
+        ElseIf random = 61 Then
+            TextBox1.Text = "In a mountain pass"
+        ElseIf random = 62 Then
+            TextBox1.Text = "In a mountain pass"
+        ElseIf random = 63 Then
+            TextBox1.Text = "In a swamp"
+        ElseIf random = 64 Then
+            TextBox1.Text = "In a swamp"
+        ElseIf random = 65 Then
+            TextBox1.Text = "In a swamp"
+        ElseIf random = 66 Then
+            TextBox1.Text = "In a swamp"
+        ElseIf random = 67 Then
+            TextBox1.Text = "Beneath or on top of a mesa "
+        ElseIf random = 68 Then
+            TextBox1.Text = "Beneath or on top of a mesa "
+        ElseIf random = 69 Then
+            TextBox1.Text = "Beneath or on top of a mesa "
+        ElseIf random = 70 Then
+            TextBox1.Text = "Beneath or on top of a mesa "
+        ElseIf random = 71 Then
+            TextBox1.Text = "In sea caves "
+        ElseIf random = 72 Then
+            TextBox1.Text = "In sea caves "
+        ElseIf random = 73 Then
+            TextBox1.Text = "In sea caves "
+        ElseIf random = 74 Then
+            TextBox1.Text = "In sea caves "
+        ElseIf random = 75 Then
+            TextBox1.Text = "In several connected mesas "
+        ElseIf random = 76 Then
+            TextBox1.Text = "In several connected mesas "
+        ElseIf random = 77 Then
+            TextBox1.Text = "In several connected mesas "
+        ElseIf random = 78 Then
+            TextBox1.Text = "In several connected mesas "
+        ElseIf random = 79 Then
+            TextBox1.Text = "On a mountain peak "
+        ElseIf random = 80 Then
+            TextBox1.Text = "On a mountain peak "
+        ElseIf random = 81 Then
+            TextBox1.Text = "On a mountain peak "
+        ElseIf random = 82 Then
+            TextBox1.Text = "On a mountain peak "
+        ElseIf random = 83 Then
+            TextBox1.Text = "On a promontory "
+        ElseIf random = 84 Then
+            TextBox1.Text = "On a promontory "
+        ElseIf random = 85 Then
+            TextBox1.Text = "On a promontory "
+        ElseIf random = 86 Then
+            TextBox1.Text = "On a promontory "
+        ElseIf random = 87 Then
+            TextBox1.Text = "On an island"
+        ElseIf random = 88 Then
+            TextBox1.Text = "On an island"
+        ElseIf random = 89 Then
+            TextBox1.Text = "On an island"
+        ElseIf random = 90 Then
+            TextBox1.Text = "On an island"
+        ElseIf random = 91 Then
+            TextBox1.Text = "Underwater"
+        ElseIf random = 92 Then
+            TextBox1.Text = "Underwater"
+        ElseIf random = 93 Then
+            TextBox1.Text = "Underwater"
+        ElseIf random = 94 Then
+            TextBox1.Text = "Underwater"
+        ElseIf random = 95 Then
+            TextBox1.Text = "Underwater"
+        ElseIf random = 96 Then
+            TextBox1.Text = "Roll on the Exotic Location table"
+        ElseIf random = 97 Then
+            TextBox1.Text = "Roll on the Exotic Location table"
+        ElseIf random = 98 Then
+            TextBox1.Text = "Roll on the Exotic Location table"
+        ElseIf random = 99 Then
+            TextBox1.Text = "Roll on the Exotic Location table"
+        ElseIf random = 100 Then
+            TextBox1.Text = "Roll on the Exotic Location table"
+        End If
+        TextBox2.Text = random
+    End Sub
+
+    Private Sub Button28_Click(sender As Object, e As EventArgs) Handles Button28.Click
+        Dim testDie As New Random
+        Dim random As Integer = testDie.Next(1, 21)
+        If random = 1 Then
+            TextBox1.Text = "Among the branches of a tree "
+        ElseIf random = 2 Then
+            TextBox1.Text = "Around a geyser"
+        ElseIf random = 3 Then
+            TextBox1.Text = "Behind a waterfall"
+        ElseIf random = 4 Then
+            TextBox1.Text = "Buried in an avalanche "
+        ElseIf random = 5 Then
+            TextBox1.Text = "Buried in a sandstorm"
+        ElseIf random = 6 Then
+            TextBox1.Text = "Buried in volcanic ash "
+        ElseIf random = 7 Then
+            TextBox1.Text = "Castle or structure sunken in a swamp"
+        ElseIf random = 8 Then
+            TextBox1.Text = "Castle or structure at the bottom of a sinkhole"
+        ElseIf random = 9 Then
+            TextBox1.Text = "Floating on the sea "
+        ElseIf random = 10 Then
+            TextBox1.Text = "In a meteorite "
+        ElseIf random = 11 Then
+            TextBox1.Text = "On a demiplane or in a pocket dimension"
+        ElseIf random = 12 Then
+            TextBox1.Text = "In an area devastated by a magical catastrophe"
+        ElseIf random = 13 Then
+            TextBox1.Text = "On a cloud"
+        ElseIf random = 14 Then
+            TextBox1.Text = "In the Feywild"
+        ElseIf random = 15 Then
+            TextBox1.Text = "In the Shadowfell "
+        ElseIf random = 16 Then
+            TextBox1.Text = "On an island in an underground sea"
+        ElseIf random = 17 Then
+            TextBox1.Text = "In a volcano"
+        ElseIf random = 18 Then
+            TextBox1.Text = "On the back of a Gargantuan living creature "
+        ElseIf random = 19 Then
+            TextBox1.Text = "Sealed inside a magical dome of force "
+        ElseIf random = 20 Then
+            TextBox1.Text = "Inside a Mordenkainen's magnificent mansion "
+        End If
+        TextBox2.Text = random
+    End Sub
+
+    Private Sub FileToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FileToolStripMenuItem.Click
+
+    End Sub
+
+    Private Sub ReportBugToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ReportBugToolStripMenuItem.Click
+        Dim SecondForm As New BugForm
+        SecondForm.Show()
     End Sub
 End Class
 'Dim testDie As New Random

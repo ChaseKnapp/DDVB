@@ -72,6 +72,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BugForm.Designer.vb">
+      <DependentUpon>BugForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BugForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="RollerForm.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="BugForm.resx">
+      <DependentUpon>BugForm.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RollerForm.resx">
       <DependentUpon>RollerForm.vb</DependentUpon>
     </EmbeddedResource>

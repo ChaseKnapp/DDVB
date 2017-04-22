@@ -50,11 +50,17 @@ Partial Class RollerForm
         Me.Button24 = New System.Windows.Forms.Button()
         Me.Button25 = New System.Windows.Forms.Button()
         Me.Button26 = New System.Windows.Forms.Button()
+        Me.Button27 = New System.Windows.Forms.Button()
+        Me.Button28 = New System.Windows.Forms.Button()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ReportBugToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(12, 12)
+        Me.Button1.Location = New System.Drawing.Point(12, 27)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(128, 23)
         Me.Button1.TabIndex = 0
@@ -63,7 +69,7 @@ Partial Class RollerForm
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(311, 356)
+        Me.TextBox1.Location = New System.Drawing.Point(336, 329)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(280, 66)
@@ -71,14 +77,14 @@ Partial Class RollerForm
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(426, 330)
+        Me.TextBox2.Location = New System.Drawing.Point(451, 303)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(41, 20)
         Me.TextBox2.TabIndex = 2
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(146, 12)
+        Me.Button2.Location = New System.Drawing.Point(146, 27)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(128, 23)
         Me.Button2.TabIndex = 3
@@ -87,7 +93,7 @@ Partial Class RollerForm
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(548, 12)
+        Me.Button3.Location = New System.Drawing.Point(548, 27)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(128, 23)
         Me.Button3.TabIndex = 4
@@ -96,7 +102,7 @@ Partial Class RollerForm
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(414, 12)
+        Me.Button4.Location = New System.Drawing.Point(414, 27)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(128, 23)
         Me.Button4.TabIndex = 5
@@ -105,7 +111,7 @@ Partial Class RollerForm
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(280, 12)
+        Me.Button5.Location = New System.Drawing.Point(280, 27)
         Me.Button5.Name = "Button5"
         Me.Button5.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.Button5.Size = New System.Drawing.Size(128, 23)
@@ -115,7 +121,7 @@ Partial Class RollerForm
         '
         'Button6
         '
-        Me.Button6.Location = New System.Drawing.Point(682, 12)
+        Me.Button6.Location = New System.Drawing.Point(682, 27)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(128, 23)
         Me.Button6.TabIndex = 7
@@ -124,7 +130,7 @@ Partial Class RollerForm
         '
         'Button7
         '
-        Me.Button7.Location = New System.Drawing.Point(816, 12)
+        Me.Button7.Location = New System.Drawing.Point(816, 27)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(128, 23)
         Me.Button7.TabIndex = 8
@@ -133,7 +139,7 @@ Partial Class RollerForm
         '
         'Button8
         '
-        Me.Button8.Location = New System.Drawing.Point(12, 41)
+        Me.Button8.Location = New System.Drawing.Point(12, 56)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(128, 23)
         Me.Button8.TabIndex = 9
@@ -142,7 +148,7 @@ Partial Class RollerForm
         '
         'Button9
         '
-        Me.Button9.Location = New System.Drawing.Point(146, 41)
+        Me.Button9.Location = New System.Drawing.Point(146, 56)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(128, 23)
         Me.Button9.TabIndex = 10
@@ -151,7 +157,7 @@ Partial Class RollerForm
         '
         'Button10
         '
-        Me.Button10.Location = New System.Drawing.Point(280, 41)
+        Me.Button10.Location = New System.Drawing.Point(280, 56)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(128, 23)
         Me.Button10.TabIndex = 11
@@ -160,7 +166,7 @@ Partial Class RollerForm
         '
         'Button11
         '
-        Me.Button11.Location = New System.Drawing.Point(414, 41)
+        Me.Button11.Location = New System.Drawing.Point(414, 56)
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(128, 23)
         Me.Button11.TabIndex = 12
@@ -169,7 +175,7 @@ Partial Class RollerForm
         '
         'Button12
         '
-        Me.Button12.Location = New System.Drawing.Point(548, 41)
+        Me.Button12.Location = New System.Drawing.Point(548, 56)
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(128, 23)
         Me.Button12.TabIndex = 13
@@ -178,7 +184,7 @@ Partial Class RollerForm
         '
         'Button13
         '
-        Me.Button13.Location = New System.Drawing.Point(816, 41)
+        Me.Button13.Location = New System.Drawing.Point(816, 56)
         Me.Button13.Name = "Button13"
         Me.Button13.Size = New System.Drawing.Size(128, 23)
         Me.Button13.TabIndex = 14
@@ -187,7 +193,7 @@ Partial Class RollerForm
         '
         'Button14
         '
-        Me.Button14.Location = New System.Drawing.Point(682, 41)
+        Me.Button14.Location = New System.Drawing.Point(682, 56)
         Me.Button14.Name = "Button14"
         Me.Button14.Size = New System.Drawing.Size(128, 23)
         Me.Button14.TabIndex = 15
@@ -197,7 +203,7 @@ Partial Class RollerForm
         'Button15
         '
         Me.Button15.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.25!)
-        Me.Button15.Location = New System.Drawing.Point(12, 70)
+        Me.Button15.Location = New System.Drawing.Point(12, 85)
         Me.Button15.Name = "Button15"
         Me.Button15.Size = New System.Drawing.Size(128, 23)
         Me.Button15.TabIndex = 16
@@ -206,7 +212,7 @@ Partial Class RollerForm
         '
         'Button16
         '
-        Me.Button16.Location = New System.Drawing.Point(551, 70)
+        Me.Button16.Location = New System.Drawing.Point(551, 85)
         Me.Button16.Name = "Button16"
         Me.Button16.Size = New System.Drawing.Size(128, 23)
         Me.Button16.TabIndex = 17
@@ -215,7 +221,7 @@ Partial Class RollerForm
         '
         'Button17
         '
-        Me.Button17.Location = New System.Drawing.Point(417, 70)
+        Me.Button17.Location = New System.Drawing.Point(417, 85)
         Me.Button17.Name = "Button17"
         Me.Button17.Size = New System.Drawing.Size(128, 23)
         Me.Button17.TabIndex = 18
@@ -224,7 +230,7 @@ Partial Class RollerForm
         '
         'Button18
         '
-        Me.Button18.Location = New System.Drawing.Point(280, 70)
+        Me.Button18.Location = New System.Drawing.Point(280, 85)
         Me.Button18.Name = "Button18"
         Me.Button18.Size = New System.Drawing.Size(128, 23)
         Me.Button18.TabIndex = 19
@@ -233,7 +239,7 @@ Partial Class RollerForm
         '
         'Button19
         '
-        Me.Button19.Location = New System.Drawing.Point(146, 70)
+        Me.Button19.Location = New System.Drawing.Point(146, 85)
         Me.Button19.Name = "Button19"
         Me.Button19.Size = New System.Drawing.Size(128, 23)
         Me.Button19.TabIndex = 20
@@ -242,7 +248,7 @@ Partial Class RollerForm
         '
         'Button20
         '
-        Me.Button20.Location = New System.Drawing.Point(816, 70)
+        Me.Button20.Location = New System.Drawing.Point(816, 85)
         Me.Button20.Name = "Button20"
         Me.Button20.Size = New System.Drawing.Size(128, 23)
         Me.Button20.TabIndex = 21
@@ -251,7 +257,7 @@ Partial Class RollerForm
         '
         'Button21
         '
-        Me.Button21.Location = New System.Drawing.Point(685, 70)
+        Me.Button21.Location = New System.Drawing.Point(685, 85)
         Me.Button21.Name = "Button21"
         Me.Button21.Size = New System.Drawing.Size(128, 23)
         Me.Button21.TabIndex = 22
@@ -260,7 +266,7 @@ Partial Class RollerForm
         '
         'Button22
         '
-        Me.Button22.Location = New System.Drawing.Point(12, 99)
+        Me.Button22.Location = New System.Drawing.Point(12, 114)
         Me.Button22.Name = "Button22"
         Me.Button22.Size = New System.Drawing.Size(128, 23)
         Me.Button22.TabIndex = 23
@@ -269,7 +275,7 @@ Partial Class RollerForm
         '
         'Button23
         '
-        Me.Button23.Location = New System.Drawing.Point(146, 99)
+        Me.Button23.Location = New System.Drawing.Point(146, 114)
         Me.Button23.Name = "Button23"
         Me.Button23.Size = New System.Drawing.Size(128, 23)
         Me.Button23.TabIndex = 24
@@ -278,7 +284,7 @@ Partial Class RollerForm
         '
         'Button24
         '
-        Me.Button24.Location = New System.Drawing.Point(280, 99)
+        Me.Button24.Location = New System.Drawing.Point(280, 114)
         Me.Button24.Name = "Button24"
         Me.Button24.Size = New System.Drawing.Size(128, 23)
         Me.Button24.TabIndex = 25
@@ -287,7 +293,7 @@ Partial Class RollerForm
         '
         'Button25
         '
-        Me.Button25.Location = New System.Drawing.Point(417, 99)
+        Me.Button25.Location = New System.Drawing.Point(417, 114)
         Me.Button25.Name = "Button25"
         Me.Button25.Size = New System.Drawing.Size(128, 23)
         Me.Button25.TabIndex = 26
@@ -296,18 +302,60 @@ Partial Class RollerForm
         '
         'Button26
         '
-        Me.Button26.Location = New System.Drawing.Point(551, 99)
+        Me.Button26.Location = New System.Drawing.Point(551, 114)
         Me.Button26.Name = "Button26"
         Me.Button26.Size = New System.Drawing.Size(128, 23)
         Me.Button26.TabIndex = 27
         Me.Button26.Text = "Villain's Weakness"
         Me.Button26.UseVisualStyleBackColor = True
         '
+        'Button27
+        '
+        Me.Button27.Location = New System.Drawing.Point(685, 114)
+        Me.Button27.Name = "Button27"
+        Me.Button27.Size = New System.Drawing.Size(128, 23)
+        Me.Button27.TabIndex = 28
+        Me.Button27.Text = "Dungeon Location"
+        Me.Button27.UseVisualStyleBackColor = True
+        '
+        'Button28
+        '
+        Me.Button28.Location = New System.Drawing.Point(816, 114)
+        Me.Button28.Name = "Button28"
+        Me.Button28.Size = New System.Drawing.Size(128, 23)
+        Me.Button28.TabIndex = 29
+        Me.Button28.Text = "Exotic Location" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Button28.UseVisualStyleBackColor = True
+        '
+        'MenuStrip1
+        '
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(962, 24)
+        Me.MenuStrip1.TabIndex = 30
+        Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'FileToolStripMenuItem
+        '
+        Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ReportBugToolStripMenuItem})
+        Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
+        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
+        Me.FileToolStripMenuItem.Text = "File"
+        '
+        'ReportBugToolStripMenuItem
+        '
+        Me.ReportBugToolStripMenuItem.Name = "ReportBugToolStripMenuItem"
+        Me.ReportBugToolStripMenuItem.Size = New System.Drawing.Size(179, 22)
+        Me.ReportBugToolStripMenuItem.Text = "Report Bug/Mistake"
+        '
         'RollerForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(962, 434)
+        Me.Controls.Add(Me.Button28)
+        Me.Controls.Add(Me.Button27)
         Me.Controls.Add(Me.Button26)
         Me.Controls.Add(Me.Button25)
         Me.Controls.Add(Me.Button24)
@@ -336,8 +384,12 @@ Partial Class RollerForm
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.MenuStrip1)
+        Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "RollerForm"
         Me.Text = "Dungeon Master Tools"
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -371,4 +423,9 @@ Partial Class RollerForm
     Friend WithEvents Button24 As Button
     Friend WithEvents Button25 As Button
     Friend WithEvents Button26 As Button
+    Friend WithEvents Button27 As Button
+    Friend WithEvents Button28 As Button
+    Friend WithEvents MenuStrip1 As MenuStrip
+    Friend WithEvents FileToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ReportBugToolStripMenuItem As ToolStripMenuItem
 End Class
