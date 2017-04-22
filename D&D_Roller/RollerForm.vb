@@ -2376,6 +2376,10 @@ spaced at one-mile intervals "
         End If
         TextBox2.Text = random
     End Sub
+
+    Private Sub RollerForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
 'Dim testDie As New Random
 'Dim random As Integer = testDie.Next(1, 21)
