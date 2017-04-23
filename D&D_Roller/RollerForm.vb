@@ -1,7 +1,13 @@
 ﻿Imports System.Web
 Imports System.IO
 Imports System.Net.Mail
+
 Public Class RollerForm
+    Private Sub RollerForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.SuspendLayout()
+        Me.Visible = True
+        Me.ResumeLayout()
+    End Sub
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Dim testDie As New Random
         Dim random As Integer = testDie.Next(1, 21)
@@ -2377,9 +2383,7 @@ spaced at one-mile intervals "
         TextBox2.Text = random
     End Sub
 
-    Private Sub RollerForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-    End Sub
 End Class
 'Dim testDie As New Random
 'Dim random As Integer = testDie.Next(1, 21)
